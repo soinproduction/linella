@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="fonts/core/stylesheet.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header header__mob">
+		<div class="wrapper">
+			<div class="header__content">
+				<div class="header__burger">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+				<a href="#" class="header__logo">
+					<img src="images/logo.png" alt="">
+				</a>
+				<div class="header__center">
+					<div class="center__block">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0962 16.2554L10 17.2126L8.90379 16.2554C4.98842 12.8366 3 9.81121 3 7C3 3.02141 6.10349 0 10 0C13.8965 0 17 3.02141 17 7C17 9.81121 15.0116 12.8366 11.0962 16.2554ZM3.68555 12.8034C4.09614 13.3656 4.55352 13.9373 5.05748 14.519C3.19525 14.9384 2 15.5337 2 16C2 16.807 5.57914 18 10 18C14.4209 18 18 16.807 18 16C18 15.5337 16.8047 14.9384 14.9425 14.519C15.4465 13.9373 15.9039 13.3656 16.3144 12.8034C18.5633 13.4858 20 14.5804 20 16C20 18.5068 15.5203 20 10 20C4.47973 20 0 18.5068 0 16C0 14.5804 1.43674 13.4858 3.68555 12.8034ZM10 2C12.8038 2 15 4.13816 15 7C15 9.04696 13.3727 11.5659 10 14.556C6.62733 11.5659 5 9.04696 5 7C5 4.13816 7.19624 2 10 2ZM10 4C11.6569 4 13 5.34315 13 7C13 8.65685 11.6569 10 10 10C8.34315 10 7 8.65685 7 7C7 5.34315 8.34315 4 10 4ZM9 7C9 6.44772 9.44771 6 10 6C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8C9.44771 8 9 7.55228 9 7Z" fill="#64696C" fill-opacity="0.45"/>
+						</svg>
+						<span>Magazin: <span>Linella - Botanica</span></span>
+					</div>
+				</div>
+				<svg class="search__mob" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M24.454 24.5082L18.9176 18.9718M21.9086 11.7809C21.9086 17.4042 17.35 21.9628 11.7267 21.9628C6.10348 21.9628 1.54492 17.4042 1.54492 11.7809C1.54492 6.15768 6.10348 1.59912 11.7267 1.59912C17.35 1.59912 21.9086 6.15768 21.9086 11.7809Z" stroke="#64696C" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<svg class="center__svg" width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M7.49524 1.33317C8.3729 0.589974 9.64566 0.166504 11 0.166504C12.3543 0.166504 13.6271 0.589974 14.5048 1.33317H15.6667C16.9553 1.33317 18 2.37784 18 3.6665L19.1667 3.6665C20.4553 3.6665 21.5 4.71117 21.5 5.99984V23.4998C21.5 24.7885 20.4553 25.8332 19.1667 25.8332H2.83333C1.54467 25.8332 0.5 24.7885 0.5 23.4998V5.99984C0.5 4.71117 1.54467 3.6665 2.83333 3.6665L4 3.6665C4 2.37784 5.04467 1.33317 6.33333 1.33317H7.49524ZM15.6667 7.1665C16.5303 7.1665 17.2844 6.69727 17.6878 5.99984H19.1667V23.4998H2.83333V5.99984H4.31216C4.7156 6.69727 5.46967 7.1665 6.33333 7.1665H15.6667ZM6.33333 17.6665V15.3332H13.3333V17.6665H6.33333ZM6.33333 10.6665V12.9998H15.6667V10.6665H6.33333ZM8.50056 3.6665L8.84942 3.26444C9.23273 2.8227 10.0543 2.49984 11 2.49984C11.9457 2.49984 12.7673 2.8227 13.1506 3.26444L13.4994 3.6665H15.6667V4.83317H6.33333V3.6665H7.96824H8.50056Z" fill="#64696C" fill-opacity="0.45"/>
+				</svg>
+				<svg class="svg__heart" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M18.3119 0.333515C16.623 0.333496 15.5343 0.534704 14.2863 1.14558C13.8242 1.37175 13.3907 1.64412 12.9881 1.96188C12.6011 1.66193 12.1849 1.40207 11.7419 1.18299C10.4697 0.553734 9.32516 0.333496 7.69681 0.333496C3.33568 0.333496 0.166504 3.94697 0.166504 8.64002C0.166504 12.1842 2.14264 15.6078 5.82348 18.9184C7.75555 20.6561 10.2224 22.3757 11.989 23.2905L12.9998 23.814L14.0106 23.2905C15.7773 22.3757 18.2441 20.6561 20.1762 18.9184C23.857 15.6078 25.8332 12.1842 25.8332 8.64002C25.8332 3.99665 22.6341 0.351414 18.3119 0.333515ZM23.4999 8.64005C23.4999 11.4167 21.8504 14.2744 18.6159 17.1835C16.8524 18.7696 14.5853 20.3546 12.9999 21.1862C11.4144 20.3546 9.14732 18.7696 7.38386 17.1835C4.14933 14.2744 2.49987 11.4167 2.49987 8.64005C2.49987 5.17253 4.69745 2.66686 7.69684 2.66686C8.99153 2.66686 9.78935 2.82038 10.7075 3.27451C11.2499 3.54276 11.7292 3.89696 12.1442 4.3396L13.0026 5.25535L13.8532 4.33234C14.2775 3.87197 14.7639 3.5097 15.3121 3.24136C16.2034 2.8051 16.9514 2.66686 18.3071 2.66687C21.2694 2.67915 23.4999 5.22065 23.4999 8.64005Z" fill="#64696C"/>
+				</svg>
+				<div class="header__basket">
+					<svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.14249 4.00508C7.78729 4.00431 7.44489 4.04452 7.11951 4.12095C6.67348 3.13787 6.08431 2.25589 5.41421 1.58579C4.27687 0.448441 2.4831 0 0 0V4C1.5169 4 2.3898 4.21823 2.58579 4.41421C3.34173 5.17015 4 6.70612 4 8L4.0201 8.28284L5.97984 22.001C2.70071 22.1711 0.160395 24.7176 0.00245716 27.9009L0 30C0.193642 33.2879 2.72551 35.8171 5.88648 35.9968L6.34052 35.9975C7.16347 38.3292 9.38662 40 12 40C14.6124 40 16.8349 38.3304 17.6586 36H22.3414C23.1651 38.3304 25.3876 40 28 40C31.3137 40 34 37.3137 34 34C34 30.6863 31.3137 28 28 28C25.3876 28 23.1651 29.6696 22.3414 32H17.6586C16.8349 29.6696 14.6124 28 12 28C9.38756 28 7.16508 29.6696 6.34141 32H6C4.98002 31.9388 4.06507 31.0248 3.99641 29.8802L4 28C4.05393 26.9626 4.96262 26.0539 6.09911 25.9975L10.0474 25.9985L10.076 26H30.2337L30.5289 25.9063C32.0453 25.4251 33.2593 24.2833 33.834 22.805L34.0447 22.388L34.2993 21.8838L34.7293 21.0317C35.4375 19.6278 36.1458 18.2215 36.836 16.8476C38.5264 13.4821 39.5896 11.3433 39.825 10.8181C41.0341 8.1209 38.5848 6.04493 36.0814 6.00072L8.14249 4.00508ZM29.5389 22H10.2257C10.0973 21.9643 9.99946 21.8556 9.9803 21.7201L8.02051 8.00151L35.7867 9.98989C35.3009 10.9807 34.4178 12.7504 33.2615 15.0522L33.2326 15.1099C32.5726 16.4238 31.8653 17.8281 31.158 19.2302L30.7285 20.0813L30.4743 20.5847L30.2151 21.0977L30.1175 21.3245C30.0131 21.6155 29.8057 21.8547 29.5389 22ZM28 36C29.1046 36 30 35.1046 30 34C30 32.8954 29.1046 32 28 32C26.8954 32 26 32.8954 26 34C26 35.1046 26.8954 36 28 36ZM14 34C14 35.1046 13.1046 36 12 36C10.8954 36 10 35.1046 10 34C10 32.8954 10.8954 32 12 32C13.1046 32 14 32.8954 14 34Z" fill="#009640"/>
+					</svg>
+					<div class="basket__info">
+						<span class="text__top">Coșul meu</span>
+						<span class="text__bottom">1 256 MDL</span>
+					</div>
+					<p class="basket__count">56</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<header class="header">
+		<div class="header__top">
+			<div class="wrapper">
+				<div class="row header__row">
+					<div class="header__burger">
+						<div class="line"></div>
+						<div class="line"></div>
+						<div class="line"></div>
+					</div>
+					<a href="#" class="header__logo">
+						<img src="images/logo.png" alt="">
+					</a>
+					<div class="header__center">
+						<div class="center__block">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0962 16.2554L10 17.2126L8.90379 16.2554C4.98842 12.8366 3 9.81121 3 7C3 3.02141 6.10349 0 10 0C13.8965 0 17 3.02141 17 7C17 9.81121 15.0116 12.8366 11.0962 16.2554ZM3.68555 12.8034C4.09614 13.3656 4.55352 13.9373 5.05748 14.519C3.19525 14.9384 2 15.5337 2 16C2 16.807 5.57914 18 10 18C14.4209 18 18 16.807 18 16C18 15.5337 16.8047 14.9384 14.9425 14.519C15.4465 13.9373 15.9039 13.3656 16.3144 12.8034C18.5633 13.4858 20 14.5804 20 16C20 18.5068 15.5203 20 10 20C4.47973 20 0 18.5068 0 16C0 14.5804 1.43674 13.4858 3.68555 12.8034ZM10 2C12.8038 2 15 4.13816 15 7C15 9.04696 13.3727 11.5659 10 14.556C6.62733 11.5659 5 9.04696 5 7C5 4.13816 7.19624 2 10 2ZM10 4C11.6569 4 13 5.34315 13 7C13 8.65685 11.6569 10 10 10C8.34315 10 7 8.65685 7 7C7 5.34315 8.34315 4 10 4ZM9 7C9 6.44772 9.44771 6 10 6C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8C9.44771 8 9 7.55228 9 7Z" fill="#64696C" fill-opacity="0.45"/>
+							</svg>
+							<span>Magazin: <span>Linella - Botanica</span></span>
+						</div>
+						<div class="center__block">
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M5.99592 1C6.7482 0.362975 7.83914 0 9 0C10.1609 0 11.2518 0.362975 12.0041 1H13C14.1046 1 15 1.89543 15 3H16C17.1046 3 18 3.89543 18 5V20C18 21.1046 17.1046 22 16 22H2C0.89543 22 0 21.1046 0 20V5C0 3.89543 0.89543 3 2 3H3C3 1.89543 3.89543 1 5 1H5.99592ZM13 6C13.7403 6 14.3866 5.5978 14.7324 5H16V20H2V5H3.26756C3.61337 5.5978 4.25972 6 5 6H13ZM5 15V13H11V15H5ZM5 9V11H13V9H5ZM6.85762 3L7.15665 2.65538C7.48519 2.27674 8.18941 2 9 2C9.81059 2 10.5148 2.27674 10.8434 2.65538L11.1424 3H13V4H5V3H6.40135H6.85762Z" fill="#64696C" fill-opacity="0.45"/>
+							</svg>
+							<span>Lista de cumpărături</span>
+						</div>
+					</div>
+					<div class="header__end">
+						<div class="phone">
+							<span>Serviciu suport:</span>
+							<a href="tel: 022456789" class="header__phone">022 456 789</a>
+						</div>
+						<div class="header__languages">
+							<span class="languages__active">RO</span>
+							<ul class="languages__body">
+								<li>RUS</li>
+								<li>Ua</li>
+								<li>ro</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="wrapper">
+				<div class="row header__row">
+					<div class="header__catalog">
+						<div class="header__catalog_top">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.74979 2.3363C4.54259 2.33585 4.34285 2.3593 4.15305 2.40389C3.89286 1.83042 3.54918 1.31593 3.15829 0.925042C2.49484 0.261591 1.44848 0 0 0V2.33333C0.884856 2.33333 1.39405 2.46063 1.50838 2.57496C1.94934 3.01592 2.33333 3.91191 2.33333 4.66667L2.34506 4.83166L3.48824 12.8339C1.57541 12.9332 0.0935639 14.4186 0.00143334 16.2755L0 17.5C0.112958 19.4179 1.58988 20.8933 3.43378 20.9981L3.69863 20.9985C4.17869 22.3587 5.47553 23.3333 7 23.3333C8.52392 23.3333 9.82037 22.3594 10.3008 21H13.0325C13.513 22.3594 14.8094 23.3333 16.3333 23.3333C18.2663 23.3333 19.8333 21.7663 19.8333 19.8333C19.8333 17.9003 18.2663 16.3333 16.3333 16.3333C14.8094 16.3333 13.513 17.3073 13.0325 18.6667H10.3008C9.82037 17.3073 8.52392 16.3333 7 16.3333C5.47608 16.3333 4.17963 17.3073 3.69916 18.6667H3.5C2.90501 18.631 2.37129 18.0978 2.33124 17.4301L2.33333 16.3333C2.36479 15.7282 2.89486 15.1981 3.55781 15.1652L5.86097 15.1658L5.87767 15.1667H17.6363L17.8085 15.112C18.6931 14.8313 19.4013 14.1652 19.7365 13.3029L19.8594 13.0597L20.2588 12.2685C20.6719 11.4496 21.085 10.6292 21.4876 9.82777C22.4737 7.86459 23.0939 6.61694 23.2313 6.31057C23.9366 4.73719 22.5078 3.52621 21.0475 3.50042L4.74979 2.3363ZM17.231 12.8333H5.96502C5.8901 12.8125 5.83302 12.749 5.82185 12.67L4.67863 4.6675L20.8756 5.82739C20.5922 6.40535 20.077 7.43766 19.4026 8.78041L19.3857 8.81406C19.0007 9.58047 18.5881 10.3997 18.1755 11.2176L17.7767 12.0077L17.6255 12.307L17.5686 12.4392C17.5076 12.609 17.3866 12.7486 17.231 12.8333ZM16.3333 21C16.9777 21 17.5 20.4777 17.5 19.8333C17.5 19.189 16.9777 18.6667 16.3333 18.6667C15.689 18.6667 15.1667 19.189 15.1667 19.8333C15.1667 20.4777 15.689 21 16.3333 21ZM8.16667 19.8333C8.16667 20.4777 7.64433 21 7 21C6.35567 21 5.83333 20.4777 5.83333 19.8333C5.83333 19.189 6.35567 18.6667 7 18.6667C7.64433 18.6667 8.16667 19.189 8.16667 19.8333Z" fill="#009640"/>
+							</svg>
+							<span>Supermarket online</span>
+						</div>
+						<ul class="catalog__body" style="display: none">
+							<li><a href="#">Fructe și Legume</a></li>
+							<li><a href="#">Lactate</a></li>
+						</ul>
+					</div>
+					<form action="#" class="header__search">
+						<input placeholder="Cautare" type="text">
+						<a href="#" class="btn__search">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M19.7142 19.7147L15.9857 15.9861M18 11.1433C18 14.9304 14.9299 18.0004 11.1428 18.0004C7.35572 18.0004 4.28568 14.9304 4.28568 11.1433C4.28568 7.35618 7.35572 4.28613 11.1428 4.28613C14.9299 4.28613 18 7.35618 18 11.1433Z" stroke="#ED1C24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</a>
+					</form>
+					<div class="header__buttons">
+						<div class="button__block">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+								<g opacity="0.5">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16 30.6663C7.89982 30.6663 1.33333 24.0998 1.33333 15.9997C1.33333 7.8995 7.89982 1.33301 16 1.33301C24.1002 1.33301 30.6667 7.8995 30.6667 15.9997C30.6667 24.0998 24.1002 30.6663 16 30.6663ZM25.866 22.8325C27.2115 20.8934 28 18.5386 28 15.9997C28 9.37226 22.6274 3.99967 16 3.99967C9.37258 3.99967 3.99999 9.37226 3.99999 15.9997C3.99999 18.5386 4.78851 20.8934 6.134 22.8325C7.6346 20.8504 11.1608 19.9997 16 19.9997C20.8392 19.9997 24.3654 20.8504 25.866 22.8325ZM23.9529 24.986C23.5627 23.5828 20.7592 22.6663 16 22.6663C11.2408 22.6663 8.43733 23.5828 8.04709 24.986C10.1644 26.8612 12.9492 27.9997 16 27.9997C19.0507 27.9997 21.8356 26.8612 23.9529 24.986ZM16 7.99967C12.7721 7.99967 10.6667 10.3407 10.6667 13.333C10.6667 17.9028 13.0145 19.9997 16 19.9997C18.9574 19.9997 21.3333 17.9725 21.3333 13.5997C21.3333 10.5618 19.2189 7.99967 16 7.99967ZM13.3333 13.333C13.3333 16.3587 14.4243 17.333 16 17.333C17.5703 17.333 18.6667 16.3975 18.6667 13.5997C18.6667 11.9336 17.6209 10.6663 16 10.6663C14.3116 10.6663 13.3333 11.7541 13.3333 13.333Z" fill="#64696C"/>
+								</g>
+							</svg>
+							<span>Contul meu</span>
+						</div>
+						<div class="button__block">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28" fill="none">
+								<path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M21.071 0.667014C19.1407 0.66699 17.8965 0.896944 16.4702 1.59509C15.9421 1.85357 15.4467 2.16485 14.9866 2.52801C14.5442 2.18521 14.0686 1.88822 13.5624 1.63784C12.1084 0.918693 10.8004 0.666992 8.93938 0.666992C3.95524 0.666992 0.333321 4.79668 0.333321 10.1602C0.333321 14.2107 2.59176 18.1234 6.79844 21.9068C9.00651 23.8928 11.8257 25.8581 13.8448 26.9036L15 27.5018L16.1552 26.9036C18.1742 25.8581 20.9935 23.8928 23.2015 21.9068C27.4082 18.1234 29.6666 14.2107 29.6666 10.1602C29.6666 4.85345 26.0106 0.68747 21.071 0.667014ZM27 10.1602C27 13.3335 25.1149 16.5994 21.4183 19.9242C19.4029 21.7368 16.8119 23.5483 15 24.4986C13.1881 23.5483 10.5971 21.7368 8.5817 19.9242C4.8851 16.5994 3 13.3335 3 10.1602C3 6.1973 5.51152 3.33367 8.93939 3.33367C10.419 3.33367 11.3308 3.50912 12.3802 4.02813C13 4.3347 13.5478 4.7395 14.022 5.24537L15.0031 6.29194L15.9753 5.23707C16.4601 4.71094 17.016 4.29692 17.6426 3.99024C18.6612 3.49166 19.516 3.33367 21.0654 3.33368C24.4509 3.34771 27 6.25229 27 10.1602Z" fill="#64696C"/>
+							</svg>
+							<span>Lista favorite</span>
+						</div>
+					</div>
+					<div class="header__basket">
+						<svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M8.14249 4.00508C7.78729 4.00431 7.44489 4.04452 7.11951 4.12095C6.67348 3.13787 6.08431 2.25589 5.41421 1.58579C4.27687 0.448441 2.4831 0 0 0V4C1.5169 4 2.3898 4.21823 2.58579 4.41421C3.34173 5.17015 4 6.70612 4 8L4.0201 8.28284L5.97984 22.001C2.70071 22.1711 0.160395 24.7176 0.00245716 27.9009L0 30C0.193642 33.2879 2.72551 35.8171 5.88648 35.9968L6.34052 35.9975C7.16347 38.3292 9.38662 40 12 40C14.6124 40 16.8349 38.3304 17.6586 36H22.3414C23.1651 38.3304 25.3876 40 28 40C31.3137 40 34 37.3137 34 34C34 30.6863 31.3137 28 28 28C25.3876 28 23.1651 29.6696 22.3414 32H17.6586C16.8349 29.6696 14.6124 28 12 28C9.38756 28 7.16508 29.6696 6.34141 32H6C4.98002 31.9388 4.06507 31.0248 3.99641 29.8802L4 28C4.05393 26.9626 4.96262 26.0539 6.09911 25.9975L10.0474 25.9985L10.076 26H30.2337L30.5289 25.9063C32.0453 25.4251 33.2593 24.2833 33.834 22.805L34.0447 22.388L34.2993 21.8838L34.7293 21.0317C35.4375 19.6278 36.1458 18.2215 36.836 16.8476C38.5264 13.4821 39.5896 11.3433 39.825 10.8181C41.0341 8.1209 38.5848 6.04493 36.0814 6.00072L8.14249 4.00508ZM29.5389 22H10.2257C10.0973 21.9643 9.99946 21.8556 9.9803 21.7201L8.02051 8.00151L35.7867 9.98989C35.3009 10.9807 34.4178 12.7504 33.2615 15.0522L33.2326 15.1099C32.5726 16.4238 31.8653 17.8281 31.158 19.2302L30.7285 20.0813L30.4743 20.5847L30.2151 21.0977L30.1175 21.3245C30.0131 21.6155 29.8057 21.8547 29.5389 22ZM28 36C29.1046 36 30 35.1046 30 34C30 32.8954 29.1046 32 28 32C26.8954 32 26 32.8954 26 34C26 35.1046 26.8954 36 28 36ZM14 34C14 35.1046 13.1046 36 12 36C10.8954 36 10 35.1046 10 34C10 32.8954 10.8954 32 12 32C13.1046 32 14 32.8954 14 34Z" fill="#009640"/>
+						</svg>
+						<div class="basket__info">
+							<span class="text__top">Coșul meu</span>
+							<span class="text__bottom">1 256 MDL</span>
+						</div>
+						<p class="basket__count">56</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="gray__bgd grey__bgd_image" style="background: url('images/bg.png')">
+		<div class="wrapper">
+			<!-- <img class="img-page" src="images/image 68.png" alt=""> -->
+			<ul class="breadcrumbs">
+				<li class="bread__a"><a href="#">Home</a></li>
+				<li class="bread__a"><a href="#">Supermarket online</a></li>
+				<li class="bread__span"><span>Mezeluri și Delicatese din Carne</span></li>
+			</ul>
+			<div class="search-title">
+				<a href="#">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 0.999999 12C0.999999 5.92487 5.92487 1 12 1ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM17 11L10.4142 11L12.7071 8.70711L11.2929 7.29289L6.58579 12L11.2929 16.7071L12.7071 15.2929L10.4142 13L17 13L17 11Z" fill="#F3F4F6"/>
+					</svg>
+				</a>
+				Mezeluri și Delicatese din Carne
+			</div>
+		</div>
+	</section>
+	<div class="bottom__product_fixed">
+		<div class="wrapper">
+			<img src="images/image 44.png" alt="">
+			<h3 class="name">
+				Cașcaval clasic felii 150g
+			</h3>
+			<div class="price">
+				<h2>119 <sup>00</sup></h2>
+				<span>/bucata</span>
+			</div>
+			<div class="block__count">
+				<div class="input__minus">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M18.3337 9.16699V10.8337H1.66699V9.16699H18.3337Z" fill="#64696C"/>
+					</svg>
+				</div>
+				<div class="input__line">
+					<input value="1" class="input__count" type="number">
+				</div>
+				<div class="input__plus">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8337 9.16699H18.3337V10.8337H10.8337V18.3337H9.16699V10.8337H1.66699V9.16699H9.16699V1.66699H10.8337V9.16699Z" fill="#64696C"/>
+					</svg>
+				</div>
+			</div>
+			<a href="#" class="button">
+				<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M6.57653 4.33641C6.38413 4.336 6.19866 4.35777 6.02242 4.39917C5.78082 3.86667 5.46169 3.38893 5.09871 3.02596C4.48265 2.4099 3.51103 2.16699 2.16602 2.16699V4.33366C2.98767 4.33366 3.46049 4.45186 3.56665 4.55802C3.97612 4.96749 4.33268 5.79948 4.33268 6.50033L4.34357 6.65353L5.4051 14.0842C3.6289 14.1764 2.2529 15.5557 2.16735 17.28L2.16602 18.417C2.27091 20.1979 3.64233 21.5679 5.35452 21.6652L5.60046 21.6656C6.04623 22.9286 7.25043 23.8337 8.66602 23.8337C10.0811 23.8337 11.2849 22.9293 11.7311 21.667H14.2676C14.7138 22.9293 15.9176 23.8337 17.3327 23.8337C19.1276 23.8337 20.5827 22.3786 20.5827 20.5837C20.5827 18.7887 19.1276 17.3337 17.3327 17.3337C15.9176 17.3337 14.7138 18.238 14.2676 19.5003H11.7311C11.2849 18.238 10.0811 17.3337 8.66602 17.3337C7.25095 17.3337 6.0471 18.238 5.60095 19.5003H5.41602C4.86352 19.4672 4.36793 18.9721 4.33074 18.3521L4.33268 17.3337C4.36189 16.7717 4.8541 16.2795 5.4697 16.249L7.60835 16.2495L7.62385 16.2503H18.5426L18.7025 16.1996C19.5239 15.9389 20.1815 15.3204 20.4928 14.5197L20.6069 14.2938L20.9777 13.5592C21.3614 12.7987 21.745 12.037 22.1188 11.2928C23.0345 9.46982 23.6104 8.31129 23.7379 8.0268C24.3928 6.56581 23.0661 5.44133 21.7101 5.41738L6.57653 4.33641ZM18.1662 14.0836H7.70496C7.6354 14.0643 7.58239 14.0054 7.57202 13.932L6.51046 6.50109L21.5505 7.57813C21.2873 8.11481 20.809 9.07338 20.1827 10.3202L20.167 10.3515C19.8095 11.0631 19.4264 11.8238 19.0433 12.5833L18.6729 13.317L18.5325 13.5949L18.4797 13.7177C18.4231 13.8754 18.3107 14.0049 18.1662 14.0836ZM17.3327 21.667C17.931 21.667 18.416 21.182 18.416 20.5837C18.416 19.9854 17.931 19.5003 17.3327 19.5003C16.7344 19.5003 16.2493 19.9854 16.2493 20.5837C16.2493 21.182 16.7344 21.667 17.3327 21.667ZM9.74935 20.5837C9.74935 21.182 9.26432 21.667 8.66602 21.667C8.06771 21.667 7.58268 21.182 7.58268 20.5837C7.58268 19.9854 8.06771 19.5003 8.66602 19.5003C9.26432 19.5003 9.74935 19.9854 9.74935 20.5837Z" fill="white"/>
+				</svg>
+				Adaugă în coș
+			</a>
+		</div>
+	</div>
+	<section class="product-page product-page_2">
+		<div class="wrapper">
+			<div class="product__sides">
+				<div class="product__lft">
+					<div class="product__slider">
+						<div class="slider-for">
+							<div class="for__item">
+								<img src="images/image 441.png" alt="">
+							</div>
+							<div class="for__item">
+								<img src="images/image 441.png" alt="">
+							</div>
+							<div class="for__item">
+								<img src="images/image 441.png" alt="">
+							</div>
+						</div>
+						<div class="slider-nav">
+							<div class="nav__item">
+								<img src="images/image 441.png" alt="">
+							</div>
+							<div class="nav__item">
+								<img src="images/image 441.png" alt="">
+							</div>
+							<div class="nav__item">
+								<img src="images/image 441.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product__rht">
+					<h1>Cașcaval clasic felii 150g</h1>
+					<div class="rht__block_2">
+						<p>Cod produs: <span>228849</span></p>
+						<div class="block__stars">
+							<svg class="star-gold" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0004 17.5356L4.39491 21.0083L5.65645 13.653L0.3125 8.44392L7.69766 7.3708L11.0004 0.678711L14.3031 7.3708L21.6883 8.44392L16.3443 13.653L17.6059 21.0083L11.0004 17.5356Z" fill="#E2E3E5"/>
+							</svg>
+							<svg class="star-gold" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0004 17.5356L4.39491 21.0083L5.65645 13.653L0.3125 8.44392L7.69766 7.3708L11.0004 0.678711L14.3031 7.3708L21.6883 8.44392L16.3443 13.653L17.6059 21.0083L11.0004 17.5356Z" fill="#E2E3E5"/>
+							</svg>
+							<svg class="star-gold" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0004 17.5356L4.39491 21.0083L5.65645 13.653L0.3125 8.44392L7.69766 7.3708L11.0004 0.678711L14.3031 7.3708L21.6883 8.44392L16.3443 13.653L17.6059 21.0083L11.0004 17.5356Z" fill="#E2E3E5"/>
+							</svg>
+							<svg class="star-gold" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0004 17.5356L4.39491 21.0083L5.65645 13.653L0.3125 8.44392L7.69766 7.3708L11.0004 0.678711L14.3031 7.3708L21.6883 8.44392L16.3443 13.653L17.6059 21.0083L11.0004 17.5356Z" fill="#E2E3E5"/>
+							</svg>
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0004 17.5356L4.39491 21.0083L5.65645 13.653L0.3125 8.44392L7.69766 7.3708L11.0004 0.678711L14.3031 7.3708L21.6883 8.44392L16.3443 13.653L17.6059 21.0083L11.0004 17.5356Z" fill="#E2E3E5"/>
+							</svg>
+						</div>
+						<p class="reviews">
+							(12 recenzii)
+						</p>
+					</div>
+					<p class="description">
+						Mozzarella di Bufala campana cu trufe. Branza proaspata cu pasta filata din lapte de bivolita cu trufa italiana.
+					</p>
+					<div class="select-type">
+						<h3>Alege greutatea:</h3>
+						<div class="type__block">
+							<div class="type__item type__item_active">
+								1.5 kg
+							</div>
+							<div class="type__item">
+								2 kg
+							</div>
+							<div class="type__item">
+								2.5 kg
+							</div>
+							<div class="type__item_disabled">
+								3 kg
+							</div>
+						</div>
+					</div>
+					<div class="rht__block_3">
+						<div class="block__top_3">
+							<div class="price">
+								23 <sup>95</sup>
+							</div>
+							<div class="price__info">
+								48.46 <span>MDL/Kg</span>
+							</div>
+						</div>
+					</div>
+					<div class="rht__block_4">
+						<div class="block__count">
+							<div class="input__minus">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M18.3337 9.16699V10.8337H1.66699V9.16699H18.3337Z" fill="#64696C"/>
+								</svg>
+							</div>
+							<div class="input__line">
+								<input value="1" class="input__count" type="number">
+							</div>
+							<div class="input__plus">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8337 9.16699H18.3337V10.8337H10.8337V18.3337H9.16699V10.8337H1.66699V9.16699H9.16699V1.66699H10.8337V9.16699Z" fill="#64696C"/>
+								</svg>
+							</div>
+						</div>
+						<div class="block__button block__button_red">
+							<a href="#">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M6.20718 2.70718L4.79297 1.29297L1.29297 4.79297L2.70718 6.20718L6.20718 2.70718ZM19.2072 1.29297L22.7072 4.79297L21.293 6.20718L17.793 2.70718L19.2072 1.29297ZM12.0001 22.0001C6.47723 22.0001 2.00008 17.5229 2.00008 12.0001C2.00008 6.47723 6.47723 2.00008 12.0001 2.00008C17.5229 2.00008 22.0001 6.47723 22.0001 12.0001C22.0001 17.5229 17.5229 22.0001 12.0001 22.0001ZM12.0001 20.0001C16.4184 20.0001 20.0001 16.4184 20.0001 12.0001C20.0001 7.5818 16.4184 4.00008 12.0001 4.00008C7.5818 4.00008 4.00008 7.5818 4.00008 12.0001C4.00008 16.4184 7.5818 20.0001 12.0001 20.0001ZM17.0001 11.0001H13.0001V6.00008H11.0001V13.0001H17.0001V11.0001Z" fill="white"/>
+								</svg>
+								Comandă prealabilă
+							</a>
+						</div>
+					</div>
+					<div class="rht__block_5">
+						<div class="block__5">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1731 1.83302C13.8461 1.83301 12.9907 1.9911 12.0101 2.47107C11.6471 2.64878 11.3065 2.86278 10.9902 3.11246C10.686 2.87678 10.359 2.6726 10.011 2.50046C9.01139 2.00605 8.1121 1.83301 6.83268 1.83301C3.40608 1.83301 0.916016 4.67217 0.916016 8.35956C0.916016 11.1443 2.46869 13.8343 5.36079 16.4354C6.87883 17.8007 8.81706 19.1519 10.2052 19.8707L10.9993 20.282L11.7935 19.8707C13.1816 19.1519 15.1199 17.8007 16.6379 16.4354C19.53 13.8343 21.0827 11.1443 21.0827 8.35956C21.0827 4.7112 18.5691 1.84709 15.1731 1.83302ZM19.2494 8.35955C19.2494 10.5412 17.9534 12.7865 15.412 15.0723C14.0264 16.3185 12.2451 17.5639 10.9994 18.2172C9.7537 17.5639 7.97241 16.3185 6.58683 15.0723C4.04541 12.7865 2.74941 10.5412 2.74941 8.35955C2.74941 5.63507 4.47608 3.66633 6.83274 3.66633C7.85 3.66633 8.47686 3.78695 9.19829 4.14377C9.62442 4.35453 10.001 4.63283 10.3271 4.98062L11.0016 5.70014L11.6699 4.97492C12.0033 4.6132 12.3854 4.32856 12.8162 4.11772C13.5165 3.77495 14.1042 3.66633 15.1694 3.66633C17.4969 3.67598 19.2494 5.67288 19.2494 8.35955Z" fill="#B2B4B5"/>
+							</svg>
+							Adaugă în <br>lista favorite
+						</div>
+						<div class="block__5">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M8.24626 1.83366C8.93585 1.24972 9.93588 0.916992 11 0.916992C12.0641 0.916992 13.0641 1.24972 13.7537 1.83366H14.6667C15.6792 1.83366 16.5 2.65447 16.5 3.66699H17.4167C18.4292 3.66699 19.25 4.4878 19.25 5.50033V19.2503C19.25 20.2628 18.4292 21.0837 17.4167 21.0837H4.58333C3.57081 21.0837 2.75 20.2628 2.75 19.2503V5.50033C2.75 4.4878 3.57081 3.66699 4.58333 3.66699H5.5C5.5 2.65447 6.32081 1.83366 7.33333 1.83366H8.24626ZM14.6667 6.41699C15.3453 6.41699 15.9377 6.04831 16.2547 5.50033H17.4167V19.2503H4.58333V5.50033H5.74527C6.06226 6.04831 6.65474 6.41699 7.33333 6.41699H14.6667ZM7.33333 14.667V12.8337H12.8333V14.667H7.33333ZM7.33333 9.16699V11.0003H14.6667V9.16699H7.33333ZM9.03615 3.66699L9.31026 3.35109C9.61143 3.004 10.257 2.75033 11 2.75033C11.743 2.75033 12.3886 3.004 12.6897 3.35109L12.9639 3.66699H14.6667V4.58366H7.33333V3.66699H8.6179H9.03615Z" fill="#B2B4B5"/>
+							</svg>
+							Adaugă în <br>lista de cumparaturi
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block__info-product">
+			<div class="wrapper">
+				<div class="sides">
+					<div class="info__lft">
+						<h2>Descriere</h2>
+						<p>Hrana completa pentru cainii adulti de talie mica (greutate pana in 10 kg) cu varsta de peste 10 luni. Ajuta la mentinerea greutatii optime a cainilor de talie mica, prin continutul de L-carnitina ce stimuleaza metabolizarea grasimilor, mentinand in acelasi timp un nivel energetic ridicat, </p>
+						<h2>Ingrediente</h2>
+						<p>LAPTE pasteurizat de bivolita, trufe 3% (Tuber Aaestivum Vitt), sare, cheag. Grasime in substanta uscata: min.52%.</p>
+						<h2>Alergeni</h2>
+						<p>Lapte.</p>
+						<h2>Detalii pastrare produs</h2>
+						<p>A se pastra la o temperatura maxim de 7 grade Celsius.</p>
+					</div>
+					<div class="info__rht">
+						<h2>Nutritie</h2>
+						<div class="rht__block">
+							<div class="block__item">
+								<p class="big_p">Grasimi</p>
+								<div class="item__cont">
+									21 g<span>/100 g</span>
+								</div>
+							</div>
+							<div class="block__item">
+								<p class="">Valoare energetica</p>
+								<div class="item__cont">
+									247 kcal<span>/100 g</span>
+								</div>
+							</div>
+							<div class="block__item">
+								<p class="">Valoare energetica</p>
+								<div class="item__cont">
+									247 kcal<span>/100 g</span>
+								</div>
+							</div>
+							<div class="block__item">
+								<p class="">Valoare energetica</p>
+								<div class="item__cont">
+									247 kcal<span>/100 g</span>
+								</div>
+							</div>
+							<div class="block__item">
+								<p class="">Valoare energetica</p>
+								<div class="item__cont">
+									247 kcal<span>/100 g</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer footer_mob">
+		<div class="wrapper">
+			<div class="footer__top">
+				<a href="#" class="footer__item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.41421L1.70712 16.7071L0.292908 15.2929L13.5858 2H6.00001V0H17V11H15V3.41421Z" fill="#E8E8E8"/>
+					</svg>
+					<img src="images/bell.png" alt="">
+					<div class="item__text">
+						<h4>Abonează-te, e gratis!</h4>
+						<p>Te anunțăm când avem cele mai noi oferte, rețete și concursuri online.</p>
+					</div>
+				</a>
+				<a href="#" class="footer__item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.41421L1.70712 16.7071L0.292908 15.2929L13.5858 2H6.00001V0H17V11H15V3.41421Z" fill="#E8E8E8"/>
+					</svg>
+					<img src="images/user.png" alt="">
+					<div class="item__text">
+						<h4>Alătură-te echipei Linella</h4>
+						<p>Lа Linellа, oаmenii sunt mereu în centrul аtenției!</p>
+					</div>
+				</a>
+				<a href="#" class="footer__item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.41421L1.70712 16.7071L0.292908 15.2929L13.5858 2H6.00001V0H17V11H15V3.41421Z" fill="#E8E8E8"/>
+					</svg>
+					<img src="images/pin-round.png" alt="">
+					<div class="item__text">
+						<h4>Amplasarea Magazinelor</h4>
+						<p>Cauta magazinul de linga tine.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="footer__line"></div>
+		<div class="footer__bottom">
+			<div class="wrapper">
+				<div class="sides-footer">
+					<div class="bottom__item">
+						<div class="footer__title">Contacte</div>
+						<ul>
+							<li><a href="">+373 (22) 89 09 30</a></li>
+							<li><a href="">Chișinău, str. Muncești 121</a></li>
+							<li><a href="">office@linella.md</a></li>
+							<li><a href="">Fax: (+373 22) 89 09 27</a></li>
+						</ul>
+					</div>
+					<div class="bottom__item">
+						<div class="footer__title">Urmărește-ne</div>
+						<div class="social__block">
+							<a href="#">
+								<img src="images/facebook.png" alt="">
+							</a>
+							<a href="#">
+								<img src="images/instagram.png" alt="">
+							</a>
+							<a href="#">
+								<img src="images/youtube.png" alt="">
+							</a>
+						</div>
+						<p>Abonează-te la retelele noastre de socializare si fii primul care află de cele mai bune oferte! </p>
+					</div>
+				</div>
+				<div class="sides-footer sides-footer__rht">
+					<div class="bottom__item">
+						<div class="footer__title">Companie</div>
+						<ul>
+							<li><a href="">Despre noi</a></li>
+							<li><a href="">Oferte</a></li>
+							<li><a href="">Rețete</a></li>
+							<li><a href="">Noutăți</a></li>
+						</ul>
+					</div>
+					<div class="bottom__item">
+						<div class="footer__title">Util</div>
+						<ul>
+							<li><a href="">Termeni și condiții</a></li>
+							<li><a href="">Locuri vacante</a></li>
+							<li><a href="">Recenzii</a></li>
+							<li><a href="">Întrebări frecvente</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- <div class="bottom__item">
+					<div class="footer__title">Urmărește-ne</div>
+					<div class="social__block">
+						<a href="#">
+							<img src="images/facebook.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/instagram.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/youtube.png" alt="">
+						</a>
+					</div>
+					<p>Abonează-te la retelele noastre de socializare si fii primul care află de cele mai bune oferte! </p>
+				</div> -->
+				
+				
+			</div>
+		</div>
+		<div class="footer__footer">
+			<div class="wrapper">
+				<span>Toate drepturile rezervate de Linella SRL © 2020</span>
+				<a href="#"><img src="images/logo_ilab3.png" alt="">developed by ilab.md</a>
+			</div>
+		</div>
+	</footer>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__top">
+				<a href="#" class="footer__item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.41421L1.70712 16.7071L0.292908 15.2929L13.5858 2H6.00001V0H17V11H15V3.41421Z" fill="#E8E8E8"/>
+					</svg>
+					<img src="images/bell.png" alt="">
+					<div class="item__text">
+						<h4>Abonează-te, e gratis!</h4>
+						<p>Te anunțăm când avem cele mai noi oferte, rețete și concursuri online.</p>
+					</div>
+				</a>
+				<a href="#" class="footer__item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.41421L1.70712 16.7071L0.292908 15.2929L13.5858 2H6.00001V0H17V11H15V3.41421Z" fill="#E8E8E8"/>
+					</svg>
+					<img src="images/user.png" alt="">
+					<div class="item__text">
+						<h4>Alătură-te echipei Linella</h4>
+						<p>Lа Linellа, oаmenii sunt mereu în centrul аtenției!</p>
+					</div>
+				</a>
+				<a href="#" class="footer__item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.41421L1.70712 16.7071L0.292908 15.2929L13.5858 2H6.00001V0H17V11H15V3.41421Z" fill="#E8E8E8"/>
+					</svg>
+					<img src="images/pin-round.png" alt="">
+					<div class="item__text">
+						<h4>Amplasarea Magazinelor</h4>
+						<p>Cauta magazinul de linga tine.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="footer__line"></div>
+		<div class="footer__bottom">
+			<div class="wrapper">
+				<div class="bottom__item">
+					<div class="footer__title">Urmărește-ne</div>
+					<div class="social__block">
+						<a href="#">
+							<img src="images/facebook.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/instagram.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/youtube.png" alt="">
+						</a>
+					</div>
+					<p>Abonează-te la retelele noastre de socializare si fii primul care află de cele mai bune oferte! </p>
+				</div>
+				<div class="bottom__item">
+					<div class="footer__title">Companie</div>
+					<ul>
+						<li><a href="">Despre noi</a></li>
+						<li><a href="">Oferte</a></li>
+						<li><a href="">Rețete</a></li>
+						<li><a href="">Noutăți</a></li>
+					</ul>
+				</div>
+				<div class="bottom__item">
+					<div class="footer__title">Util</div>
+					<ul>
+						<li><a href="">Termeni și condiții</a></li>
+						<li><a href="">Locuri vacante</a></li>
+						<li><a href="">Recenzii</a></li>
+						<li><a href="">Întrebări frecvente</a></li>
+					</ul>
+				</div>
+				<div class="bottom__item">
+					<div class="footer__title">Contacte</div>
+					<ul>
+						<li><a href="">+373 (22) 89 09 30</a></li>
+						<li><a href="">Chișinău, str. Muncești 121</a></li>
+						<li><a href="">office@linella.md</a></li>
+						<li><a href="">Fax: (+373 22) 89 09 27</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer__footer">
+			<div class="wrapper">
+				<span>Toate drepturile rezervate de Linella SRL © 2020</span>
+				<a href="#"><img src="images/logo_ilab3.png" alt="">developed by ilab.md</a>
+			</div>
+		</div>
+	</footer>
+	<script src="js/app.min.js"></script>
+	<script src="js/slick.min.js"></script>
+</body>
+</html>
